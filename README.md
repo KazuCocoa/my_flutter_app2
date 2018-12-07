@@ -11,6 +11,15 @@ A few resources to get you started if this is your first Flutter project:
 - [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
+For help getting started with Flutter, view our
+[online documentation](https://flutter.io/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+# TODO
+- Add integration tests using flutter_driver:
+    - https://github.com/flutter/flutter/tree/master/packages/flutter_driver
+- Add Appium tests using Dart webdriver
+    - https://github.com/google/webdriver.dart
+- Replace https://github.com/KazuCocoa/flutter-appium with this repo's app
+- https://codemagic.io/apps
