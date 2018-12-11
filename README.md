@@ -21,7 +21,7 @@ samples, guidance on mobile development, and a full API reference.
     - https://github.com/flutter/flutter/tree/master/packages/flutter_driver
     - > $ flutter test test/unit/first_test.dart
     - > $ flutter test test/widget/widget_test.dart
-    - > $ flutter drive test/integration/integration_test.dart
+    - > $ flutter driver --target=test_driver/app.dart
 - Add Appium tests using Dart webdriver
     - https://github.com/google/webdriver.dart
 - Replace https://github.com/KazuCocoa/flutter-appium with this repo's app
