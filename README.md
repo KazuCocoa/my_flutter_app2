@@ -1,5 +1,7 @@
 # my_flutter_app2
 
+[![Codemagic build status](https://api.codemagic.io/apps/5cdad79fd85907001ff44483/5cdad79fd85907001ff44482/status_badge.svg)](https://codemagic.io/apps/5cdad79fd85907001ff44483/5cdad79fd85907001ff44482/latest_build)
+
 - https://flutter.io/docs/testing#integration-testing
 - https://flutter.io/docs/cookbook/testing/integration
 
