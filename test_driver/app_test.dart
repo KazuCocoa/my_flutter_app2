@@ -21,6 +21,8 @@ void main() {
     });
 
     test('measure', () async {
+      driver.checkHealth();
+
       // Record the performance timeline of things that happen inside the closure
       Timeline timeline = await driver.traceAction(() async {
         // Find the scrollable user list
