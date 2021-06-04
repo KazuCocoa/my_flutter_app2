@@ -21,27 +21,9 @@ void main() {
     });
 
     test('measure', () async {
-      driver.checkHealth();
-
-      // Record the performance timeline of things that happen inside the closure
-      Timeline timeline = await driver.traceAction(() async {
-        // Find the scrollable user list
-
-        SerializableFinder userList = find.text('0');
-        expect(userList.finderType, 'ByText');
-        expect(userList.serialize()['text'], '0');
-      });
-
-      // The `timeline` object contains all the performance data recorded during
-      // the scrolling session. It can be digested into a handful of useful
-      // aggregate numbers, such as "average frame build time".
-      // TimelineSummary summary = TimelineSummary.summarize(timeline);
-
-      // The following line saves the timeline summary to a JSON file.
-      // summary.writeSummaryToFile('scrolling_performance', pretty: true);
-
-      // The following line saves the raw timeline data as JSON.
-      // summary.writeTimelineToFile('scrolling_performance', pretty: true);
+      SerializableFinder userList = find.text('0');
+      expect(userList.finderType, 'ByText');
+      expect(userList.serialize()['text'], '0');
     });
   });
 }
